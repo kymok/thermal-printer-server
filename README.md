@@ -49,20 +49,20 @@ python3 main.py
 
 Send a JSON POST to `/thermal-printer/v1/print/`.
 
-|Name|Type|Default|
-|:---|:---|:------|
-|lines|array||
-|lines: text|||
-|lines: bold||false|
-|lines: char_spacing||0|
-|lines: double_height||false|
-|lines: double_width||false|
-|lines: inverse||false|
-|lines: justify||L|
-|lines: left_margin||0|
-|lines: rotate||false|
-|lines: size||S|
-|lines: strike||false|
-|lines: underline||false|
-|lines: upside_down||false|
+|Name|Type|Default|Remarks|
+|:---|:---|:------|:------|
+|lines|array|||
+|lines: text|string|||
+|lines: bold|boolean|false||
+|lines: char_spacing|int|0||
+|lines: double_height|boolean|false||
+|lines: double_width|boolean|false||
+|lines: inverse|boolean|false|White on black if true.|
+|lines: justify|string|L||
+|lines: left_margin|int|0||
+|lines: rotate|boolean|false|90 degree rotation.|
+|lines: size|int|S|M: double height, L: double height and width.|
+|lines: strike|boolean|false||
+|lines: underline|boolean|false||
+|lines: upside_down|boolean|false||
 
