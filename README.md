@@ -11,12 +11,20 @@ The printer can be controlled via JSON POST API as shown below:
 {
     "lines": [
       {
-        "text": "Hello World",
-        "bold": true
+        "text": "* HELLO *",
+        "double_width": true,
+        "justify": "C"
+      },
+      {
+        "text": "* WORLD *",
+        "double_width": true,
+        "justify": "C"
       }
     ]
 }
 ```
+
+![Hello World printed](./doc/img/hello_world.jpg)
 
 ## Prerequisites 
 
