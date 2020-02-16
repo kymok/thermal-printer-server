@@ -35,6 +35,7 @@ The printer can be controlled via JSON POST API as shown below:
 ### Python
 - [thermalprinter](https://github.com/BoboTiG/thermalprinter)
 - [Flask](http://flask.palletsprojects.com/en/1.1.x/)
+- [Flask-CORS](https://github.com/corydolphin/flask-cors)
 
 ## Usage
 
